@@ -44,7 +44,7 @@ Even users who know a lot about technology have a hard time detecting that those
 - Don't enter your credentials into a popup, instead, dismiss it, and open the Settings app manually. This is the same concept, like you should never click on links on emails, but instead open the website manually
 - If you hit the `Cancel` button on a dialog, the app still gets access to the content of the password field, so be careful to clear the text before dismissing a popup.
 
-Initially I thought, faking those alerts requires the app developer to know your email. Turns out, some of those auth popups don't include the email address
+Initially I thought, faking those alerts requires the app developer to know your email. Turns out, some of those auth popups don't include the email address, making it even easier for phishing apps to ask for the password.
 
 Official popup without email | Phishing popup without email
 ----|-----
