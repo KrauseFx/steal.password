@@ -48,7 +48,7 @@ Initially I thought, faking those alerts requires the app developer to know your
 
 Official popup without email | Phishing popup without email
 ----|-----
-<img src="screenshots/NoEmail.jpg" width="270" /> | <img src="screenshots/NoEmailPhishing.png" width="270" />
+<img src="screenshots/NoEmail.jpg" width="270" /> | <img src="screenshots/NoEmailPhishing.jpg" width="270" />
 
 ## Proposal
 
