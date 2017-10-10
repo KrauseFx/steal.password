@@ -92,6 +92,10 @@ This area will become more and more relevant, with users being uninformed, and t
 
 iOS should very clearly distinguish between system UI and app UI elements, so that ideally it's even obvious for the average smartphone user that something seems off. This is a tricky problem to solve, and web browser are still tackling it, you still have websites that make popups look like macOS / iOS popups, so that many users think it's a system message.
 
+### But, but, but, why is the `.` symbol within the `"`, is this all fake? 
+
+Nope, actually, that's how the system dialog looks like, the `.` is within the `"` string notation, so I designed the phishing dialog to also include this little, but very important design detail
+
 ## License
 
 This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file.
