@@ -24,7 +24,7 @@ Random system popup | Phishing popup in app/game
 
 ## Disclaimer
 
-`steal.password` is not intended to be used. It's a proof of concept to highlight a security loophole that can be abused by iOS apps. Apps shouldn't use this. The goal is to close this loophole and stop those Apple ID popups that appear after every iOS update, or for stuck iOS app downloads. Please don't use this anywhere!
+This is just a proof of concept, phishing attacks are illegal! Don't use this in any of your apps. The goal of this blog post is to close the loophole that has been there for many years, and hasn't been addressed yet. For moral reasons, I decided not to include the actual source code of the popup, however it was shockingly easy to replicate the system dialog.
 
 ## Why does this work?
 
@@ -59,6 +59,10 @@ Modern web browsers already do an excellent job protecting users from phishing a
 - Dialogs from apps could contain the app icon on the top right of the dialog, to indicate an app is asking you, and not the system. This approach is used by push notifications also, this way, an app can't just send push notifications as the iTunes app.
 
 I've reported this as a radar, which you can dupe: [rdar://34885659](https://openradar.appspot.com/radar?id=4952345645416448) 👍
+
+Sometimes iOS shows the following notification on the lock screen, which opens up the iCloud Settings screen, this is a much better approach than to ask for the password directly: 
+
+<img src="screenshots/Lockscreen.jpg" />
 
 ## Complexity
 
