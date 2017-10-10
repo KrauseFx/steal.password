@@ -58,11 +58,11 @@ Modern web browsers already do an excellent job protecting users from phishing a
 - Fix the root of the problem, users shouldn't constantly be asked for their credentials. It doesn't affect all users, but I myself had this issue for many months, until it randomly disappeared.
 - Dialogs from apps could contain the app icon on the top right of the dialog, to indicate an app is asking you, and not the system. This approach is used by push notifications also, this way, an app can't just send push notifications as the iTunes app.
 
+<img src="screenshots/Lockscreen.jpg" width="300" align="right" />
+
 I've reported this as a radar, which you can dupe: [rdar://34885659](https://openradar.appspot.com/radar?id=4952345645416448) 👍
 
 Sometimes iOS shows the following notification on the lock screen, which opens up the iCloud Settings screen, this is a much better approach than to ask for the password directly: 
-
-<img src="screenshots/Lockscreen.jpg" />
 
 ## Complexity
 
