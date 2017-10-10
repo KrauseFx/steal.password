@@ -100,7 +100,7 @@ iOS should very clearly distinguish between system UI and app UI elements, so th
 
 ### But, but, but, why is the `.` symbol within the `"`, is this all fake? 
 
-<img src="screenshots/WrongDot.jpg" align="right" width="200" />
+<img src="screenshots/WrongDot.jpg" align="right" width="350" />
 
 Nope, actually, that's how the system dialog looks like, the `.` is within the `"` string notation, so I designed the phishing dialog to also include this little, but very important design detail
 
