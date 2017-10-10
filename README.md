@@ -112,6 +112,3 @@ Idea from [@tapbot_paul](https://twitter.com/tapbot_paul) via [this tweet](https
 
 [@tapbot_paul](https://twitter.com/tapbot_paul) and I [tweeted about this issue multiple times](https://twitter.com/KrauseFx/status/908204812122165248) a while ago.
 
-2048 app forked from [danqing/2048](https://github.com/danqing/2048) as a proof of concep on how easy it is to integrate those popups into any existing apps.
-
-
