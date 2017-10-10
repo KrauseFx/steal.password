@@ -12,7 +12,7 @@
 [![Twitter: @KrauseFx](https://img.shields.io/badge/contact-@KrauseFx-blue.svg?style=flat)](https://twitter.com/KrauseFx)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/KrauseFx/whats-the-user-doing/blob/master/LICENSE)
 
-Does your iOS app already know the email address of the user? Do you want your users to just give their Apple ID credentials to you? Just ask your users politely and they'll probably just hand over their credentials 👌
+Do you want the user's Apple ID password, to get access to their Apple account, or to try the same email/password combination on different web services? Just ask your users politely, they'll probably just hand over their credentials, as they're trained to do so 👌
 
 Official popup | Phishing popup
 ----|-----
@@ -43,6 +43,12 @@ Even users who know a lot about technology have a hard time detecting that those
   - If the dialog and the app are still visible, then it's a system dialog. The reason for that is that the system dialogs run on a different process, and not as part of any iOS app.
 - Don't enter your credentials into a popup, instead, dismiss it, and open the Settings app manually. This is the same concept, like you should never click on links on emails, but instead open the website manually
 - If you hit the `Cancel` button on a dialog, the app still gets access to the content of the password field, so be careful to clear the text before dismissing a popup.
+
+Initially I thought, faking those alerts requires the app developer to know your email. Turns out, some of those auth popups don't include the email address
+
+Official popup without email | Phishing popup
+----|-----
+<img src="screenshots/NoEmail.jpg" width="270" /> | <img src="screenshots/NoEmailPhishing.png" width="270" />
 
 ## Proposal
 
