@@ -64,13 +64,13 @@ I decided not to open source the actual popup code, however, note that it's less
 
 Imagine if everybody read this before posting a comment on HackerNews/Reddit #oneCanDream :)
 
-### But, I have 2-factor enabled
+### But, I have 2-factor enabled, I'm safe, right?
 
 Good for you, everybody should use 2-step verification obviously, however many people don't. At the same time, even if your Apple account is 2FA protected, many users still use the same username/password combination on most web services, meaning if hackers know your Apple ID password, chances are high, they're gonna try the same combination on other common services.
 
 Also, even with 2FA enabled accounts, what if the app asked you for your 2 step code? Most users would gladly request a 2FA-token and ask for it, and directly pipe it over to a remote server.
 
-### Apple would never accept such an app
+### Apple would never accept such an app, right?
 
 Apple is doing a great job protecting users from dangerous third party apps, that's why the App Store is built and provided like it is, that's why we code sign our application ([not really, but kind of](https://krausefx.com/blog/the-developer-part-of-ios-code-signing-doesnt-add-any-security-to-anything)).
 
@@ -86,7 +86,7 @@ The things above is public knowledge, most iOS developers are aware, and I stron
 
 The point of this list is: While the review process provides a basic safety filter, organisations with bad intent will always find a way to somehow work around the limitations of a platform.
 
-### Phishing on mobile? 
+### Phishing on mobile? Is that a thing now?
 
 This area will become more and more relevant, with users being uninformed, and the mobile operating systems not yet clearly separating system UI and app UI. This is kind of related to [detect.location](https://github.com/KrauseFx/detect.location), where apps would write their own, custom image picker to provide a better "experience", but in reality, with that, they also get full access to your image library, and optionally also your camera (related to [watch.user](https://github.com/KrauseFx/watch.user)).
 
