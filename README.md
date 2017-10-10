@@ -98,7 +98,7 @@ This area will become more and more relevant, with users being uninformed, and t
 
 iOS should very clearly distinguish between system UI and app UI elements, so that ideally it's even obvious for the average smartphone user that something seems off. This is a tricky problem to solve, and web browser are still tackling it, you still have websites that make popups look like macOS / iOS popups, so that many users think it's a system message.
 
-<img src="screenshots/WrongDot.jpg" align="right" width="300" />
+<img src="screenshots/WrongDot.jpg" align="right" width="280" />
 
 ### But, but, but, why is the `.` symbol within the `"`, is this all fake? 
 
